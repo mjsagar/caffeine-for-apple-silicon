@@ -1,0 +1,16 @@
+# Temporary build artifacts
+.build/
+build/
+*.o
+*.swiftdoc
+*.swiftmodule
+
+# Xcode & macOS
+.DS_Store
+*.xcuserdata/
+xcuserdata/
+DerivedData/
+
+# Clang / Swift cache
+.cache/
+/tmp/clang-cache
